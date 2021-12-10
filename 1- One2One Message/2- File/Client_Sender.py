@@ -46,7 +46,7 @@ if __name__ == "__main__":
     parser.add_argument("host", help="The host/IP address of the receiver")
     parser.add_argument("-p", "--port", help="Port to use, default is 5001", default=5001)
     #args = parser.parse_args()
-    filename = 'file name' #put file at -> C:\user\ur_user_name 
+    filename = 'File2Send.py'
     host = "" #put ur IPv4 Address -> open cmd + type ipconfig
     port = 5001
     send_file(filename, host, port)
