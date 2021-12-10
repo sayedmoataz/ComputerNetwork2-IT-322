@@ -1,6 +1,6 @@
 import socket
 
-host = '192.168.1.9'
+host = '' #put ur IPv4 Address -> open cmd + type ipconfig
 port = 5000
 
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
